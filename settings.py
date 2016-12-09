@@ -1,5 +1,4 @@
 import os
-from testapp import validators
 
 from distutils.version import LooseVersion
 import django
@@ -52,5 +51,4 @@ if LooseVersion(django.get_version()) >= LooseVersion('1.8'):
 DJOSER = {
     'PASSWORD_RESET_CONFIRM_URL': '#/password/reset/confirm/{uid}/{token}',
     'ACTIVATION_URL': '#/activate/{uid}/{token}',
-    'PASSWORD_VALIDATORS': [validators.is_666],
 }
