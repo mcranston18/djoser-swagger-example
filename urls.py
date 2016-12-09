@@ -6,6 +6,6 @@ schema_view = get_swagger_view(title='Testing API')
 
 
 urlpatterns = (
-    url(r'^auth/', include('djoser.urls.authtoken')),
-    url(r'^docs/$', schema_view),
+    url(r'^djoser/', include('djoser.urls.authtoken')),
+    url(r'^swagger/$', schema_view),
 )
