@@ -7,6 +7,7 @@ The bug is currently demonstrated if you clone and run this repo.
 If using your own repo, steps to reproduce:
 
 (1) Add `djoser` and `django-rest-swagger` to an existing Rest Framework app
+
 (2) Add token based auth to your default permissions:
 
 ```
