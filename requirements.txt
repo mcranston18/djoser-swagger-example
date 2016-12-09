@@ -1,0 +1,13 @@
+coreapi==2.1.1
+Django==1.10.4
+django-braces==1.10.0
+django-rest-swagger==2.1.0
+djangorestframework==3.5.3
+djoser==0.5.1
+itypes==1.1.0
+oauthlib==1.1.2
+openapi-codec==1.2.1
+requests==2.12.3
+simplejson==3.10.0
+six==1.10.0
+uritemplate==3.0.0
