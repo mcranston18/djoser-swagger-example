@@ -6,8 +6,8 @@ The bug is currently demonstrated if you clone and run this repo.
 
 If using your own repo, steps to reproduce:
 
-1. Add `djoser` and `django-rest-swagger` to an existing Rest Framework app
-2. Add token based auth to your default permissions:
+(1) Add `djoser` and `django-rest-swagger` to an existing Rest Framework app
+(2) Add token based auth to your default permissions:
 
 ```
 REST_FRAMEWORK = {
@@ -17,7 +17,7 @@ REST_FRAMEWORK = {
 }
 ```
 
-3. Add djoser and swagger to your URLs
+(3) Add djoser and swagger to your URLs
 ```
 from django.conf.urls import url, include
 from rest_framework_swagger.views import get_swagger_view
@@ -31,7 +31,7 @@ urlpatterns = (
 )
 ```
 
-4. Go to `localhost:8000/swagger/` and you will see the following error:
+(4) Go to `localhost:8000/swagger/` and you will see the following error:
 
 ```
 TypeError at /swagger/
